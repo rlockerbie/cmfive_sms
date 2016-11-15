@@ -6,7 +6,7 @@
  * @param unknown $w
  * @param unknown $object
  */
-function sms_core_dbobject_after_insert(Web $w, DbObject $object) {
+/* function sms_core_dbobject_after_insert(Web $w, DbObject $object) {
 	$triggers = $w->Sms->getAllTriggers('Database');
 	foreach($triggers as $trigger) {
 		$json = json_decode($trigger['trigger_setup']);
@@ -37,4 +37,4 @@ function sms_core_dbobject_after_update(Web $w, DbObject $object) {
 			}
 		}
 	}
-}
+} */
